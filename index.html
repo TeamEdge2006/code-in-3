@@ -11,6 +11,19 @@
   <meta name="keywords" content="HTML,CSS">
   <meta name="author" content="Ayaan Ahmed Ammar">
 <style>
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+	
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}	
+	
 a:link, a:visited {
   background-color: #f44336;
   color: white;
@@ -33,7 +46,11 @@ table {
 <Body background="images/Sajad.jpg" style="text-align:center;">
 <header>
 <h3>Secondary link</h3>
-<a href="calc.html">Calculator</a>
+<nav>	
+  <ul>
+	<a href="calc.html">Calculator</a>
+  </ul>	  
+</nav>
 <h1 style="color:Aqua;">Sajjad Ali</h1>
 </header>
 <section>
